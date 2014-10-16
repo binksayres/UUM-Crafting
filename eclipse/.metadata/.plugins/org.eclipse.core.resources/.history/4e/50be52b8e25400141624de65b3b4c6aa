@@ -1,0 +1,6 @@
+package com.binksayres.letsmodreboot.proxy;
+
+public interface IProxy 
+{
+
+}

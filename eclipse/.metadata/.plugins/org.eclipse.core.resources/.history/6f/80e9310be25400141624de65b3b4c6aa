@@ -1,0 +1,19 @@
+package com.binksayres.letsmodreboot.init;
+
+import com.binksayres.letsmodreboot.block.*;
+import com.binksayres.letsmodreboot.references.Reference;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@GameRegistry.ObjectHolder(Reference.MOD_ID)
+public class ModBlocks 
+{
+	public static final BlockMaster flag = new BlockFlag();
+	public static final BlockMaster plainLGray = new BlockPlainLightGrey();
+	
+	public static void init()
+	{
+		GameRegistry.registerBlock(flag, "flag");
+		GameRegistry.registerBlock(plainLGray, "plainLGray");
+	}
+}

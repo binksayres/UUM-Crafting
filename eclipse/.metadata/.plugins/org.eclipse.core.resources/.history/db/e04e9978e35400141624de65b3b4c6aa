@@ -1,0 +1,13 @@
+package com.binksayres.letsmodreboot.item;
+
+import com.binksayres.letsmodreboot.creativetab.CreativeTabLMRB;
+import com.binksayres.letsmodreboot.item.ItemMaster;
+
+public class ItemMapleLeaf extends ItemMaster {
+
+	public ItemMapleLeaf()
+	{
+		super();
+		this.setUnlocalizedName("mapleLeaf");
+	}
+}

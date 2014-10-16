@@ -9,11 +9,9 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class ModBlocks 
 {
 	// create a reference Block (public static final BlockMaster BLOCK = new BlockBLOCK();)
-	public static final BlockMaster uumGenerator = new BlockUUMGenerator();
 	
 	public static void init()
 	{
 		// Add blocks to GameRegistry (GameRegistry.registerBlock(BLOCK from above, "BLOCK");)
-		GameRegistry.registerBlock(uumGenerator, "uumGenerator");
 	}
 }

@@ -1,0 +1,5 @@
+package com.binksayres.uumcrafting.block;
+
+public class BlockUUMGenerator extends BlockMaster {
+
+}

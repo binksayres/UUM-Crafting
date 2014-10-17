@@ -8,6 +8,7 @@ import com.binksayres.uumcrafting.utility.*;
 import com.binksayres.uumcrafting.handler.ConfigurationHandler;
 import com.binksayres.uumcrafting.init.ModBlocks;
 import com.binksayres.uumcrafting.init.ModItems;
+import com.binksayres.uumcrafting.init.OreDict;
 import com.binksayres.uumcrafting.init.Recipes;
 
 import cpw.mods.fml.common.*;
@@ -41,6 +42,7 @@ public class UUMCrafting
 	@Mod.EventHandler
 	public void InitMod(FMLInitializationEvent event) 
 	{
+		OreDict.init();
 		Recipes.init();
 		LogHelper.info("Initialization Complete!");
 	}

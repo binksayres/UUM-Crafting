@@ -1,0 +1,7 @@
+package com.binksayres.uumcrafting.item;
+
+import com.binksayres.uumcrafting.ItemMaster;
+
+public class ItemUURubber extends ItemMaster {
+
+}

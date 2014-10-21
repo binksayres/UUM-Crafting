@@ -1,7 +1,7 @@
 package com.binksayres.uumcrafting.init;
 
 import com.binksayres.uumcrafting.item.*;
-import com.binksayres.uumcrafting.references.Reference;
+import com.binksayres.uumcrafting.references.*;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -12,14 +12,18 @@ public class ModItems
 	public static final ItemMaster uuMatter = new ItemUUMatter();
 	public static final ItemMaster uuRubber = new ItemUURubber();
 	public static final ItemMaster uuCopperDust = new ItemUUCopperDust();
+	public static final ItemMaster uuCopperIngot = new ItemUUCopperIngot();
 	public static final ItemMaster uuTinDust = new ItemUUTinDust();
+	public static final ItemMaster uuTinIngot = new ItemUUTinIngot();
 	
 	public static void init()
 	{
 		// Add item to GameRegistry (GameRegistry.registerItem(mapleLeaf, "mapleLeaf");)
-		GameRegistry.registerItem(uuMatter, "uuMatter");
+		GameRegistry.registerItem(uuMatter, Names.Items.matter);
 		GameRegistry.registerItem(uuRubber, "uuRubber");
 		GameRegistry.registerItem(uuCopperDust, "uuCopperDust");
+		GameRegistry.registerItem(uuCopperIngot, "uuCopperIngot");
 		GameRegistry.registerItem(uuTinDust, "uuTinDust");
+		GameRegistry.registerItem(uuTinIngot, "uuTinIngot");
 	}
 }

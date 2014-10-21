@@ -10,4 +10,8 @@
 <fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
 <fullyQualifiedTypeName name="net.minecraftforge.oredict.OreDictionary"/>
 <fullyQualifiedTypeName name="net.minecraft.init.Items"/>
+<fullyQualifiedTypeName name="com.binksayres.uumcrafting.item.ItemMaster"/>
+<fullyQualifiedTypeName name="net.minecraft.nbt.NBTTagCompound"/>
+<fullyQualifiedTypeName name="com.binksayres.uumcrafting.references.Names"/>
+<fullyQualifiedTypeName name="com.binksayres.uumcrafting.references.Names.Items"/>
 </qualifiedTypeNameHistroy>

@@ -29,9 +29,15 @@ public class Recipes
 		GameRegistry.addRecipe(new ItemStack(ModItems.uuCopperDust, 2), "uuu", "uu ", "uuu", 'u', new ItemStack(ModItems.uuMatter));
 		GameRegistry.addRecipe(new ItemStack(ModItems.uuTinDust, 2), "uuu", " u ", " u ", 'u', new ItemStack(ModItems.uuMatter));
 		
+		// Smelting Recipes
+		GameRegistry.addSmelting(new ItemStack(ModItems.uuCopperDust), new ItemStack(ModItems.uuCopperIngot), 10);
+		GameRegistry.addSmelting(new ItemStack(ModItems.uuTinDust), new ItemStack(ModItems.uuTinIngot), 10);
+		
 		// Basic UUM Recipes
 		GameRegistry.addRecipe(new ItemStack(ModItems.uuMatter, 64), "   ", " s ", "   ", 's', new ItemStack(Blocks.cobblestone));
 		GameRegistry.addRecipe(new ItemStack(Blocks.cobblestone,16), "   ", " u ", "   ", 'u', new ItemStack(ModItems.uuMatter));
+		GameRegistry.addRecipe(new ItemStack(Blocks.dirt, 32),       "   ", "u  ", "u  ", 'u', new ItemStack(ModItems.uuMatter));
+		GameRegistry.addRecipe(new ItemStack(Blocks.gravel, 32),     "u u", "   ", "   ", 'u', new ItemStack(ModItems.uuMatter));
 		GameRegistry.addRecipe(new ItemStack(Blocks.log,8),          " u ", "   ", "   ", 'u', new ItemStack(ModItems.uuMatter));
 		GameRegistry.addRecipe(new ItemStack(Items.flint,32),        " u ", "uu ", "uu ", 'u', new ItemStack(ModItems.uuMatter));
 		GameRegistry.addRecipe(new ItemStack(Blocks.glowstone, 8),   " u ", "u u", "uuu", 'u', new ItemStack(ModItems.uuMatter));

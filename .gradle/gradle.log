@@ -14,7 +14,7 @@ Note: D:\GD\Java Workspace\Minecraft Mods\UUM-Crafting\build\sources\java\com\bi
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
-:processResources
+:processResources UP-TO-DATE
 :classes
 :jar
 :compileTestJava UP-TO-DATE
@@ -32,4 +32,4 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 51.676 secs
+Total time: 54.382 secs

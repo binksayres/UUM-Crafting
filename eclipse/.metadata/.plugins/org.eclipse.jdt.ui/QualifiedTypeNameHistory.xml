@@ -14,4 +14,5 @@
 <fullyQualifiedTypeName name="net.minecraft.nbt.NBTTagCompound"/>
 <fullyQualifiedTypeName name="com.binksayres.uumcrafting.references.Names"/>
 <fullyQualifiedTypeName name="com.binksayres.uumcrafting.references.Names.Items"/>
+<fullyQualifiedTypeName name="com.binksayres.uumcrafting.init.ModItems"/>
 </qualifiedTypeNameHistroy>

@@ -20,10 +20,10 @@ public class ModItems
 	{
 		// Add item to GameRegistry (GameRegistry.registerItem(mapleLeaf, "mapleLeaf");)
 		GameRegistry.registerItem(uuMatter, Names.Items.matter);
-		GameRegistry.registerItem(uuRubber, "uuRubber");
-		GameRegistry.registerItem(uuCopperDust, "uuCopperDust");
-		GameRegistry.registerItem(uuCopperIngot, "uuCopperIngot");
-		GameRegistry.registerItem(uuTinDust, "uuTinDust");
-		GameRegistry.registerItem(uuTinIngot, "uuTinIngot");
+		GameRegistry.registerItem(uuRubber, Names.Items.rubber);
+		GameRegistry.registerItem(uuCopperDust, Names.Items.copperDust);
+		GameRegistry.registerItem(uuCopperIngot, Names.Items.copperIngot);
+		GameRegistry.registerItem(uuTinDust, Names.Items.tinDust);
+		GameRegistry.registerItem(uuTinIngot, Names.Items.tinIngot);
 	}
 }

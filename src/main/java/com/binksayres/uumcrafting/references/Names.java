@@ -6,6 +6,10 @@ public class Names
 	{
 		public static final String matter = "uuMatter";
 		public static final String copperDust = "uuCopperDust";
+		public static final String tinDust = "uuTinDust";
+		public static final String copperIngot = "uuCopperIngot";
+		public static final String tinIngot = "uuTinIngot";
+		public static final String rubber = "uuRubber";
 	}
     public static final class NBT
     {

@@ -38,7 +38,7 @@ public class Recipes
 		GameRegistry.addRecipe(new ItemStack(ModItems.uuMatter, 64), "   ", " s ", "   ", 's', new ItemStack(Blocks.cobblestone));
 		GameRegistry.addRecipe(new ItemStack(Blocks.cobblestone,16), "   ", " u ", "   ", 'u', new ItemStack(ModItems.uuMatter));
 		GameRegistry.addRecipe(new ItemStack(Blocks.dirt, 32),       "   ", "u  ", "u  ", 'u', new ItemStack(ModItems.uuMatter));
-		GameRegistry.addRecipe(new ItemStack(Items.spider_eye, 6),   "u  ", "  u", "  u", 'u', new ItemStack(ModItems.uuMatter));
+		GameRegistry.addRecipe(new ItemStack(Items.spider_eye, 4),   "   ", "  u", "  u", 'u', new ItemStack(ModItems.uuMatter));
 		GameRegistry.addRecipe(new ItemStack(Items.slime_ball, 8),   "u  ", " u ", "  u", 'u', new ItemStack(ModItems.uuMatter));
 		GameRegistry.addRecipe(new ItemStack(Items.nether_wart, 8),  "u  ", "u u", "uuu", 'u', new ItemStack(ModItems.uuMatter));
 		GameRegistry.addRecipe(new ItemStack(Blocks.gravel, 32),     "u u", "   ", "   ", 'u', new ItemStack(ModItems.uuMatter));

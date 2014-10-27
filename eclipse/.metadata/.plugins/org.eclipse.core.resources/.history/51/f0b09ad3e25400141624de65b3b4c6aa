@@ -1,5 +1,0 @@
-package com.binksayres.letsmodreboot.proxy;
-
-public class ServerProxy extends CommonProxy{
-
-}

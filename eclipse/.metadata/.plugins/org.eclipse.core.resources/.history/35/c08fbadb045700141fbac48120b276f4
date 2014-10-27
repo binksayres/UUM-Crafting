@@ -1,7 +1,0 @@
-package com.binksayres.uumcrafting.item;
-
-import com.binksayres.uumcrafting.ItemMaster;
-
-public class ItemUUCopperIngot extends ItemMaster {
-
-}

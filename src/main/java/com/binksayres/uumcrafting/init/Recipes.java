@@ -27,11 +27,13 @@ public class Recipes
 		// Custom UUM Recipes
 		GameRegistry.addRecipe(new ItemStack(ModItems.uuRubber, 2),  "uuu", "u u", "u  ", 'u', new ItemStack(ModItems.uuMatter));
 		GameRegistry.addRecipe(new ItemStack(ModItems.uuCopperDust, 2), "uuu", "uu ", "uuu", 'u', new ItemStack(ModItems.uuMatter));
+		GameRegistry.addRecipe(new ItemStack(ModItems.uuSilverDust, 2), "uu ", " u ", "uuu", 'u', new ItemStack(ModItems.uuMatter));
 		GameRegistry.addRecipe(new ItemStack(ModItems.uuTinDust, 2), "uuu", " u ", " u ", 'u', new ItemStack(ModItems.uuMatter));
 		
 		// Smelting Recipes
 		GameRegistry.addSmelting(new ItemStack(ModItems.uuMatter), new ItemStack(Items.experience_bottle), 1);
 		GameRegistry.addSmelting(new ItemStack(ModItems.uuCopperDust), new ItemStack(ModItems.uuCopperIngot), 10);
+		GameRegistry.addSmelting(new ItemStack(ModItems.uuSilverDust), new ItemStack(ModItems.uuSilverIngot), 10);
 		GameRegistry.addSmelting(new ItemStack(ModItems.uuTinDust), new ItemStack(ModItems.uuTinIngot), 10);
 		
 		// Basic UUM Recipes

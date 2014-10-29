@@ -12,7 +12,7 @@
 <fullyQualifiedTypeName name="net.minecraft.init.Items"/>
 <fullyQualifiedTypeName name="com.binksayres.uumcrafting.item.ItemMaster"/>
 <fullyQualifiedTypeName name="net.minecraft.nbt.NBTTagCompound"/>
+<fullyQualifiedTypeName name="com.binksayres.uumcrafting.init.ModItems"/>
 <fullyQualifiedTypeName name="com.binksayres.uumcrafting.references.Names"/>
 <fullyQualifiedTypeName name="com.binksayres.uumcrafting.references.Names.Items"/>
-<fullyQualifiedTypeName name="com.binksayres.uumcrafting.init.ModItems"/>
 </qualifiedTypeNameHistroy>

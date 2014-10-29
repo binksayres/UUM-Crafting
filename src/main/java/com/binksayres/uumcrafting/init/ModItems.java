@@ -13,6 +13,8 @@ public class ModItems
 	public static final ItemMaster uuRubber = new ItemUURubber();
 	public static final ItemMaster uuCopperDust = new ItemUUCopperDust();
 	public static final ItemMaster uuCopperIngot = new ItemUUCopperIngot();
+	public static final ItemMaster uuSilverDust = new ItemUUSilverDust();
+	public static final ItemMaster uuSilverIngot = new ItemUUSilverIngot();
 	public static final ItemMaster uuTinDust = new ItemUUTinDust();
 	public static final ItemMaster uuTinIngot = new ItemUUTinIngot();
 	
@@ -23,6 +25,8 @@ public class ModItems
 		GameRegistry.registerItem(uuRubber, Names.Items.rubber);
 		GameRegistry.registerItem(uuCopperDust, Names.Items.copperDust);
 		GameRegistry.registerItem(uuCopperIngot, Names.Items.copperIngot);
+		GameRegistry.registerItem(uuSilverDust, Names.Items.silverDust);
+		GameRegistry.registerItem(uuSilverIngot, Names.Items.silverIngot);
 		GameRegistry.registerItem(uuTinDust, Names.Items.tinDust);
 		GameRegistry.registerItem(uuTinIngot, Names.Items.tinIngot);
 	}

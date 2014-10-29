@@ -9,6 +9,8 @@ public class OreDict
 		OreDictionary.registerOre("itemRubber", ModItems.uuRubber);
 		OreDictionary.registerOre("dustCopper", ModItems.uuCopperDust);
 		OreDictionary.registerOre("ingotCopper", ModItems.uuCopperIngot);
+		OreDictionary.registerOre("dustSilver", ModItems.uuSilverDust);
+		OreDictionary.registerOre("ingotSilver", ModItems.uuSilverIngot);
 		OreDictionary.registerOre("dustTin", ModItems.uuTinDust);
 		OreDictionary.registerOre("ingotTin", ModItems.uuTinIngot);
 	}

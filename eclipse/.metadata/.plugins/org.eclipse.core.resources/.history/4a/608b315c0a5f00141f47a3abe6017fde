@@ -1,5 +1,0 @@
-package com.binksayres.uumcrafting.item;
-
-public class ItemUUSilverDust extends ItemMaster {
-
-}

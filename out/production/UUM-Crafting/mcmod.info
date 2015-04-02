@@ -1,0 +1,21 @@
+{
+  "modListVersion": 2,
+  "modList": [{
+    "modid": "UUMCrafting",
+    "name": "UU-Matter Crafting",
+    "description": "Bringing back solid UU-Matter Crafting",
+    "version": "1.2",
+    "mcversion": "1.7.10",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [ "BinkSayres" ],
+    "credits": "To pahimar.  Thanks for the series and am looking forward to more",
+    "logoFile": "",
+    "screenshots": [],
+    "parent": "",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "useDependencyInformation": false
+  }]
+}

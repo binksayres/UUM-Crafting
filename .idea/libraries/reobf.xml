@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="reobf">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/tmp/reobf/reobfed2778538300971295738.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/tmp/reobf/reobfed4631277225116759065.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/tmp/reobf/reobfed5810548345144051289.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/tmp/reobf/reobfed8480918902119652223.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/tmp/reobf/reobfed1774274450315682399.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/tmp/reobf/reobfed609283191452312846.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/tmp/reobf/reobfed294422558454660350.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/tmp/reobf/reobfed2615734008325361216.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/tmp/reobf/reobfed716998373721519320.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/tmp/reobf/reobfed9113414995279019460.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

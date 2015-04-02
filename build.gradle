@@ -17,12 +17,12 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.2"
+version = "1.2.1"
 group= "com.binksayres.uumcrafting" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "uumcrafting"
 
 minecraft {
-    version = "1.7.10-10.13.1.1226"
+    version = "1.7.10-10.13.2.1291"
     runDir = "eclipse"
 }
 
